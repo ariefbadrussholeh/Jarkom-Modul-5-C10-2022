@@ -38,11 +38,31 @@ Keterangan:
 
 #### Menentukan jumlah subnet pada Topologi
 
+![Topologi Subnet](./screenshot/Topologi-Subnet.png)
+
 #### Menentukan jumlah IP yang dibutuhkan pada subnet
+
+| Subnet    | Jumlah IP | Netmask |
+| --------- | --------- | ------- |
+| A1        | 3         | /29     |
+| A2        | 63        | /25     |
+| A3        | 701       | /22     |
+| A4        | 2         | /30     |
+| A5        | 2         | /30     |
+| A6        | 256       | /23     |
+| A7        | 201       | /24     |
+| A8        | 3         | /29     |
+| **Total** | **1233**  | **/21** |
+
+Berdasarkan total IP dan netmask yang dibutuhkan, Subnet besar yang dibentuk memiliki `NID 192.184.0.0` dengan `Netmask /21`.
 
 #### Menghitung pembagian IP berdasarkan NID dan Netmask yang didapatkan
 
+![Topologi Subnet](./screenshot/Subnetting_VLSM.PNG)
+
 #### Hasil Pembagian IP
+
+![Topologi Subnet](./screenshot/Pembagian_IP.PNG)
 
 ### Soal C
 
